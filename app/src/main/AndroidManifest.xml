@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.StudentPlanner">
         <activity
+            android:name=".Journal"
+            android:exported="false" />
+        <activity
+            android:name=".ToDos"
+            android:exported="false" />
+        <activity
+            android:name=".Dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".Calendar"
+            android:exported="false" />
+        <activity
             android:name=".Register"
             android:exported="false" />
         <activity

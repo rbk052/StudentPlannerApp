@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_bar"
+    app:startDestination="@id/calendar">
+    <activity
+        android:id="@+id/calendar"
+        android:name="com.studentplanner.Calendar"
+        android:label="calendar"
+        tools:layout="@layout/calendar" />
+    <activity
+        android:id="@+id/dashboard"
+        android:name="com.studentplanner.Dashboard"
+        android:label="dashboard"
+        tools:layout="@layout/dashboard" />
+    <activity
+        android:id="@+id/toDos"
+        android:name="com.studentplanner.ToDos"
+        android:label="to_dos"
+        tools:layout="@layout/to_dos" />
+    <activity
+        android:id="@+id/journal"
+        android:name="com.studentplanner.Journal"
+        android:label="journal"
+        tools:layout="@layout/journal" />
+</navigation>

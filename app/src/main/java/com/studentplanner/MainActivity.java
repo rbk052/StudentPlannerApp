@@ -45,7 +45,6 @@ public class MainActivity extends AppCompatActivity {
                 else {
                     // authentication
                 }
-
             }
         });
         btnToRegister.setOnClickListener(new View.OnClickListener() {

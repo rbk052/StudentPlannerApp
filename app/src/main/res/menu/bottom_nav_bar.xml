@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@id/dashboard"
+        android:icon="@drawable/ic_dashboard"
+        android:title="Dashboard" />
+    <item
+        android:id="@id/calendar"
+        android:icon="@drawable/ic_calendar"
+        android:title="Calendar"/>
+    <item
+        android:id="@id/toDos"
+        android:icon="@drawable/ic_check_box"
+        android:title="To Do"/>
+    <item
+        android:id="@id/journal"
+        android:icon="@drawable/ic_baseline_menu_book_24"
+        android:title="Journal"/>
+</menu>

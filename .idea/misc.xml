@@ -4,7 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/calendar.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/dashboard.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/journal.xml" value="0.23697916666666666" />
         <entry key="app/src/main/res/layout/register.xml" value="0.23697916666666666" />
+        <entry key="app/src/main/res/layout/to_dos.xml" value="0.23697916666666666" />
+        <entry key="app/src/main/res/menu/bottom_nav_bar.xml" value="0.1" />
       </map>
     </option>
   </component>
