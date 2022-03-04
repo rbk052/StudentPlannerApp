@@ -27,33 +27,27 @@ public class MainActivity extends AppCompatActivity {
         loginBtn = findViewById((R.id.loginBtn));
         btnToRegister = findViewById(R.id.btnToLogin);
 
-        loginBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                String mail,pass;
+        loginBtn.setOnClickListener(view -> {
+            String mail,pass;
 
-                mail = email.getText().toString();
-                pass = password.getText().toString();
+            mail = email.getText().toString();
+            pass = password.getText().toString();
 
-                if (mail.equals("")) {
-                    Toast.makeText(MainActivity.this, "Email is Blank", Toast.LENGTH_LONG).show();
-                }
+            if (mail.equals("")) {
+                Toast.makeText(MainActivity.this, "Email is Blank", Toast.LENGTH_LONG).show();
+            }
 
-                else if (pass.equals("")) {
-                    Toast.makeText(MainActivity.this, "Password is Blank", Toast.LENGTH_LONG).show();
-                }
-                else {
-                    // authentication
-                }
+            else if (pass.equals("")) {
+                Toast.makeText(MainActivity.this, "Password is Blank", Toast.LENGTH_LONG).show();
+            }
+            else {
+                // authentication
             }
         });
-        btnToRegister.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(MainActivity.this,Register.class);
-                startActivity(i);
-                finish();
-            }
+        btnToRegister.setOnClickListener(view -> {
+            Intent i = new Intent(MainActivity.this,Register.class);
+            startActivity(i);
+            finish();
         });
     }
 }
